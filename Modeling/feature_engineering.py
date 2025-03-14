@@ -8,15 +8,6 @@ from nltk.sentiment.vader import SentimentIntensityAnalyzer
 logger = logging.getLogger(__name__)
 
 def feature_engineering(df: pd.DataFrame) -> pd.DataFrame:
-    """
-    Performs feature transformations & encodes new features for modeling.
-
-    Args:
-        df (pd.DataFrame): Raw or partially cleaned restaurant DataFrame.
-
-    Returns:
-        pd.DataFrame: Modified DataFrame with additional columns for modeling.
-    """
     logger.info("Starting feature engineering...")
 
     #Convert date to YYYY-MM

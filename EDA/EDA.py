@@ -51,7 +51,7 @@ def run_eda_df(df: pd.DataFrame, output_dir: str = "plots") -> None:
         plt.savefig(out_path, dpi=100, bbox_inches="tight")
         plt.close()
 
-        # Alternatively, a violin plot for more nuance:
+        # violin plot:
         plt.figure(figsize=(10,6))
         sns.violinplot(data=df, x='Region', y='stars_business', inner='quartile', cut=0)
         plt.title("Violin Plot: Star Ratings by Region")
