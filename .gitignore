@@ -1,0 +1,27 @@
+# Virtual environment directories
+env/
+.venv/
+
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+
+# Generated output files (reproducible artifacts)
+plots/
+Yelpmerged_data.csv
+Yelpmerged_data_enriched.csv
+
+# Large data files downloaded externally (if not meant to be versioned)
+yelp_academic_dataset_business.json
+yelp_academic_dataset_review.json
+
+# OS-specific files
+.DS_Store
+Thumbs.db
