@@ -9,26 +9,6 @@ Model Training: Train logistic regression and random forest models to classify �
 
 
 
-Project Structure
-my_yelp_project/
-├── DataPrep/
-│   ├── DataHandling.py        # Merges & downloads raw data
-│   └── __init__.py
-├── Modeling/
-│   ├── feature_engineering.py # Adds sentiment, region, etc.
-│   ├── train.py               # Feature selection & model training
-│   └── __init__.py
-├── EDA/
-│   ├── EDA.py                 # Static EDA with matplotlib/seaborn
-│   ├── newEDA.py (optional)   # Interactive EDA with Dash
-│   └── __init__.py
-├── Logging.py                 # Global logger config
-├── main.py                    # Orchestrates entire pipeline
-├── requirements.txt           # Dependencies
-├── README.md                  # This file
-└── .gitignore
-
-
 
 License
 This project is licensed under the MIT License.
